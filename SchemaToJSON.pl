@@ -6,7 +6,14 @@
 # 2: In terminal/cmd, cd to the folder with this pl file
 # 3: [install perl, &] type: perl SchemaToJSON_ALT.pl
 ### - don't mind the "Egads"
-# 4: go check your json output
+# 4: go check your JSON output
+
+# to use that JSON file in a d3 bundle map:
+# 1: add any missing 'module.irn' that aren't defined with a "name"
+# 2: replace all 's with "s
+# 3: remove the last dangling comma after the last element
+# 4: try referencing it in something like this: http://bl.ocks.org/mbostock/7607999
+### - (& replace the "readme-flare-imports.json" reference with your json file)
 
 # made with wisdom from:
 ### http://stackoverflow.com/questions/15678358/accessing-hash-of-hashes-defined-in-another-file-in-perl-and-printing-it
